@@ -1,0 +1,6 @@
+* 
+!wp-content/themes/nhom3-news-child/ 
+!*.sql 
+!README.md 
+!LICENSE 
+!.gitignore 
