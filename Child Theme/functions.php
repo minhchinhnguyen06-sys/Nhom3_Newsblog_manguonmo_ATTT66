@@ -142,4 +142,4 @@ function ducanh_remove_file_editors_menu() {
     remove_submenu_page('plugins.php', 'plugin-editor.php');
 }
 
-?>
+
