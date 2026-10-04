@@ -1,5 +1,4 @@
-# Nhom3_Newsblog_manguonmo_ATTT66
-# Dự Án Nhóm 3 - WordPress News Blog (Task 4)
+# Dự Án Nhóm 3 - WordPress News Blog 
 
 Kho lưu trữ (Repository) này chứa mã nguồn Child Theme, cơ sở dữ liệu mới nhất và tài liệu hướng dẫn bàn giao cho hệ thống.
 
