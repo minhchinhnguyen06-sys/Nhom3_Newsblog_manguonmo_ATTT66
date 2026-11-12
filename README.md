@@ -17,7 +17,7 @@ Kho lưu trữ (Repository) này chứa mã nguồn Child Theme, cơ sở dữ l
 1. Tải thư mục `Child Theme` về máy.
 2. Đưa thư mục `Child Theme` vào đường dẫn chứa các theme của WordPress trên Local của cậu:
    `.../app/public/wp-content/themes/`
-3. Vào trang quản trị WordPress (`Dashboard`) > **Appearance** > **Themes** và kích hoạt (Activate) theme **Nhóm 3 News Child**.
+3. Vào trang quản trị WordPress (`Dashboard`) > **Appearance** > **Themes** và kích hoạt (Activate) theme **Nhom 3 News Child**.
 
 ### Bước 2: Import Cơ sở dữ liệu (Database)
 1. Tải file `local-20261112-132622.sql` từ kho lưu trữ này về máy tính.
