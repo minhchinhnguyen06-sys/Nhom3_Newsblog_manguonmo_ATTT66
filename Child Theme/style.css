@@ -1,4 +1,29 @@
-/* 
-Theme Name: Nhom 3 News Child 
-Template: horizon-news 
-*/ 
+/*
+Theme Name: Nhom 3 News Child
+Theme URI: https://example.invalid/nhom3
+Description: Child theme for Horizon News. Safe custom shortcodes and moderated community article submission. Visual design is provided by the Nhom 3 Design Polish plugin.
+Author: Nhom 3
+Template: horizon-news
+Version: 3.1.0
+Requires PHP: 8.0
+License: GPL-2.0-or-later
+Text Domain: nhom3-news-child
+*/
+:root { --nh3child-green: #305344; }
+.nh3c-notice { padding: 1.1rem 1.35rem; margin: 1rem 0; border-radius: .6rem; border-left: 4px solid var(--nh3child-green); background: #f4f6ee; color: #23332c; }
+.nh3c-notice--warning { background: #fff6e7; border-color: #b16c38; }
+.nh3c-notice--success { background: #eaf5ed; border-color: #368259; }
+.nh3c-form { max-width: 760px; margin: 2rem auto; display: grid; gap: 1rem; padding: 2rem; background: #f9f8f2; border: 1px solid #d9ded4; border-radius: 14px; }
+.nh3c-form label { display: grid; gap: .4rem; font-weight: 600; }
+.nh3c-form input, .nh3c-form textarea, .nh3c-form select { width: 100%; box-sizing: border-box; padding: .85rem; border: 1px solid #b8c5b9; border-radius: 8px; font: inherit; color: #23332c; background: #fff; }
+.nh3c-form button { background: #305344; color: white; border: 0; border-radius: 8px; padding: .9rem 1.4rem; cursor: pointer; font: inherit; font-weight: 700; }
+.nh3c-form button:hover { background: #1f382d; }
+
+/* Group 3 original alert shortcode compatible styling */
+.thongbao { display:flex; align-items:center; gap:.8rem; padding:1rem 1.2rem; margin:1rem 0; border-radius:14px; border:1px solid #bfd2c1; background:#f0f6ed; color:#214b38; font-family:inherit; line-height:1.6; }
+.thongbao-canhbao { background:#fff4e2; color:#7a4a1b; border-color:#e6be7d; }
+.thongbao-thanhcong { background:#e9f7ec; color:#245c39; border-color:#a6d5b5; }
+.thongbao-noidung { flex:1; overflow-wrap:anywhere; }
+.thongbao-dong { border:0; border-radius:50%; width:32px; height:32px; cursor:pointer; background:transparent; color:inherit; font-size:22px; }
+.thongbao-dong:focus-visible {outline:2px solid currentColor;outline-offset:3px;}
+
