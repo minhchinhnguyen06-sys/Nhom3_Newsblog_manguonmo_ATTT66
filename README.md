@@ -4,7 +4,7 @@ Kho lưu trữ (Repository) này chứa mã nguồn Child Theme, cơ sở dữ l
 
 ## 📁 Cấu trúc thư mục
 - `Child Theme/`: Thư mục chứa mã nguồn Child Theme (`functions.php`, `style.css`, ...).
-- `local-20261004-215757.sql`: File sao lưu cơ sở dữ liệu (Database) mới nhất của dự án.
+- `local-20261112-131959.sql`: File sao lưu cơ sở dữ liệu (Database) mới nhất của dự án.
 - `README.md`: Hướng dẫn cài đặt và sử dụng hệ thống.
 
 ---
@@ -20,10 +20,10 @@ Kho lưu trữ (Repository) này chứa mã nguồn Child Theme, cơ sở dữ l
 3. Vào trang quản trị WordPress (`Dashboard`) > **Appearance** > **Themes** và kích hoạt (Activate) theme **Nhóm 3 News Child**.
 
 ### Bước 2: Import Cơ sở dữ liệu (Database)
-1. Tải file `local-20261004-215757.sql` từ kho lưu trữ này về máy tính.
+1. Tải file `local-20261112-131959.sql` từ kho lưu trữ này về máy tính.
 2. Mở ứng dụng **LocalWP**, chọn trang web của nhóm và bấm vào **Open Adminer** ở mục Database.
 3. Trong giao diện Adminer, chọn tab **Import**.
-4. Chọn file `local-20261004-215757.sql` vừa tải về, sau đó nhấn nút **Execute** để tiến hành khôi phục cơ sở dữ liệu.
+4. Chọn file `local-20261112-131959.sql` vừa tải về, sau đó nhấn nút **Execute** để tiến hành khôi phục cơ sở dữ liệu.
 
 ### Bước 3: Kiểm tra hoàn tất
 Sau khi hoàn tất 2 bước trên, truy cập vào trang chủ website để kiểm tra lại toàn bộ giao diện, các tính năng trong `functions.php` và dữ liệu bài viết xem đã hoạt động mượt mà chưa nhé!
